@@ -1,0 +1,43 @@
+#timeline {
+    min-height: 660px;
+    min-width:  600px;
+    width: 700px;
+    background-color: pink;
+    height: 800px;
+}
+
+#timeline-year {
+    height: 340px;
+    color: black;
+}
+#timeline-year {
+    min-width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#box {
+    background-color: rgb(255, 255, 255);
+    max-height: 60px;
+    max-width: 200px;
+    display: flex;
+    box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 0px 0px 15px 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#box-line h1, p {
+    padding-top: 0px;
+}
+#number {
+    background-color:  rgb(221, 120, 26);
+    color:white;
+    min-width: 64px;
+    text-align: center;
+}
+#year-text {
+    text-align: center;
+    margin: auto;
+    color: rgb(64, 64, 97)
+}

@@ -1,0 +1,24 @@
+# Logs
+*.log
+
+# Build or temp directories (if used)
+dist/
+build/
+temp/
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-generated files
+Thumbs.db
+
+/references/
+portfolio_muistio.txt
+test.html
+timeline.html
+year_card.html
+test.css
+colors.txt
