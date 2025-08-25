@@ -114,6 +114,26 @@ a {
   padding-top: 60px; /* adjust if needed for nav height */
 }
 
+#hero-social-icons i{
+  padding-top: 5px;
+  padding-left: 15px;
+  font-size: 2.0rem;
+  vertical-align: middle;
+}
+
+#hero-social-icons a {
+  text-decoration: none;
+}
+
+#hero-social-icons a:hover i {
+  color: #fff;
+}
+
+.social-links a:hover {
+  transform: scale(1.1);
+  color: #ffffff;
+}
+
 
 #vanta-bg {
   position: absolute;
@@ -137,6 +157,9 @@ a {
   padding: 0px;
   margin: 0.0em 0;      /* smaller top/bottom spacing */
   line-height: 0.5;  
+}
+#profile-summary a:hover{
+  color: white; 
 }
 
 .profile-image {
