@@ -1,8 +1,15 @@
 /* Game Projects Gallery Layout */
+#game-projects {
+  background-color: black;
+}
+
+
 .game-projects-container {
   display: flex;
   flex-direction: column;
   gap: 2.5rem;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .game-project-card {
   display: flex;
