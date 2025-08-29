@@ -62,11 +62,14 @@ header h2 {
 }
 
 #contact {
-    margin-left: 8.5mm;
     min-height: 8mm;
     color: white;
+    background-color: black;
 }
-
+#contact-interior {
+    margin-left: 8.5mm;
+    padding-top: 1mm;
+}
 #profile-img img {
     object-fit: cover;
     width: 35mm;
