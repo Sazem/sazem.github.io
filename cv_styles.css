@@ -41,6 +41,7 @@ header h1 {
     margin-bottom: 0px;
     color: white;
 }
+
 header h2 {
     margin-top: 0px;
     color: var(--secondary-color);
@@ -61,7 +62,7 @@ header h2 {
 }
 
 #contact {
-    margin-left: 7mm;
+    margin-left: 8.5mm;
     min-height: 8mm;
     color: white;
 }
@@ -118,7 +119,7 @@ a {
 }
 
 .section {
-    margin-bottom: 8mm;
+    margin-bottom: 6mm;
     padding-left: 7mm;
     padding-right: 7mm;
 }
