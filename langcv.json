@@ -1,0 +1,84 @@
+{
+    "en": {
+        "phone": "+358 45 13 70 450!",
+        "summary": "Summary",
+        "about": "Programmer with years of experience in indie development. Freelanced for multiple clients in gaming and web development, creating games, WordPress sites, and static websites\n.Skilled in HTML, CSS, JS, and C#.\nSocial, adaptable, and strong in communication and teamwork.",
+        "exp": "Experience",
+        "pme": [
+            {"name": "1", "detail": "Developed gameplay systems in Unity and Godot"},
+            {"name": "2", "detail": "2 published titles on Steam"},
+            {"name": "3", "detail": "3 asset packs published on the Unity Asset Store"},
+            {"name": "4", "detail": "1 mobile game in development"}
+        ],
+        "plne": [
+            {"name": "1", "detail": "Solved technical issues for clients"},
+            {"name": "2", "detail": "Databases, site transfers, DNS & nameserver modifications"},
+            {"name": "3", "detail": "Helped 1st line agents with more basic technical issues"}
+        ],
+        "syne": [
+            {"name": "1", "detail": "Web development for clients"},
+            {"name": "2", "detail": "Video shooting & editing for marketing purposes"},
+            {"name": "3", "detail": "Designed print marketing materials"}
+        ],
+        "cite": [
+            {"name": "1", "detail": "Added new products for eStore and updated old ones"},
+            {"name": "2", "detail": "Contacted product factories for offers for products to sell in the eStore"}
+        ],
+        "mle": [
+            {"name": "1", "detail": "Created Wordpress sites for various clients"},
+            {"name": "2", "detail": "Maintained websites by updating content and installing required plugins"}
+        ],
+        "edu": "Education",
+        "skills": "Skills",
+        "lang": "Languages",
+        "Languages": [
+            { "name": "Finnish", "level": "Native"},
+            { "name": "English", "level": "Full professional proficiency"},
+            { "name" : "Spanish", "level": "Professional working proficiency"}
+        ],
+        "cert": "Certificates",
+        "country-fi": "Finland",
+        "country-es": "Spain"
+    },
+    "es": {
+        "phone": "+34 651 67 27 81",
+        "summary": "Resumen",
+        "about": "Programador con años de experiencia en el desarrollo indie. He trabajado como freelance para múltiples clientes en desarrollo de videojuegos y web, creando juegos, sitios en WordPress y páginas web estáticas. Con habilidades en HTML, CSS, JS y C#.\nSoy sociable, adaptable y fuerte en comunicación y trabajo en equipo.",
+        "exp": "Experiencia",
+        "pme": [ 
+            {"name": "1", "detail": "Desarrollé sistemas de jugabilidad en Unity y Godot"},
+            {"name": "2", "detail": "2 títulos publicados en Steam"},
+            {"name": "3", "detail": "3 paquetes de assets publicados en la Unity Asset Store"},
+            {"name": "4", "detail": "1 juego móvil en desarrollo"}
+        ],
+        "plne": [
+            {"name": "1", "detail": "Resolví problemas técnicos para clientes"},
+            {"name": "2", "detail": "Bases de datos, transferencias de sitios, modificaciones de DNS y nameservers"},
+            {"name": "3", "detail": "Ayudé a los agentes de primera línea con problemas técnicos más básicos"}
+        ],
+        "syne": [
+            {"name": "1", "detail": "Desarrollo web para clientes"},
+            {"name": "2", "detail": "Grabación y edición de videos para marketing"},
+            {"name": "3", "detail": "Diseño de materiales de marketing impresos"}
+        ],
+        "cite": [
+            {"name": "1", "detail": "Se añadieron nuevos productos a la tienda online y se actualizaron los antiguos"},
+            {"name": "2", "detail": "Se contactó con las fábricas para obtener ofertas de productos para vender en la tienda online"}
+        ],
+        "mle": [
+            {"name": "1", "detail": "Creado sitios de Wordpress para varios clientes"},
+            {"name": "2", "detail": "Mantuve sitios web actualizados con contenido e instalando los complementos necesarios"}
+        ],
+        "edu": "Educación",
+        "skills": "Habilidades",
+        "lang": "Idiomas",
+        "Languages": [
+            { "name": "Finlandés", "level": "Nativo"},
+            { "name": "Inglés", "level": "Dominio profesional completo"},
+            { "name" : "Español", "level": "Dominio profesional funcional"}
+        ],
+        "cert": "Certificados",
+        "country-fi": "Finlandia",
+        "country-es": "España"
+    }
+}

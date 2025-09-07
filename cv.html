@@ -2,13 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>CV | Sampo Pesone</title>
+  <title>CV | Sampo Pesonen</title>
   <link rel="stylesheet" type="text/css" href="cv_styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 </head>
 <body>
-
   <!-- Header -->
   <header>
     <div id="contacts">
@@ -18,7 +17,7 @@
     </div>
         <div id="contact">
           <div id="contact-interior">
-             <i class="fa-solid fa-envelope"></i> sampo.pesonen@gmail.com | <i class="fa-solid fa-phone"></i> +358 45 13 70 450 | <i class="fa-solid fa-globe"></i> <a href="https://sampopesonen.fi">sampopesonen.fi</a>
+             <i class="fa-solid fa-envelope"></i> sampo.pesonen@gmail.com | <i class="fa-solid fa-phone"></i> <span id="phone">+358 45 13 70 450.</span> | <i class="fa-solid fa-globe"></i> <a href="https://sampopesonen.fi">sampopesonen.fi</a>
         </div>
         <div id="profile-img">
             <img src="/images/profile.jpg" alt="Profile photo">
@@ -28,8 +27,8 @@
   </header>
 
   <section class="section">
-    <h2>Summary</h2>
-    <p>Programmer / Artist with years of experience in indie
+    <h2 id="summary">Summary</h2>
+    <p id="about">Programmer / Artist with years of experience in indie
 development.
 Freelanced for multiple clients in gaming and web development, creating games, WordPress sites, and static websites.
 <br>Skilled in HTML, CSS, JS, and C#. <br>
@@ -39,10 +38,10 @@ Social, adaptable, and strong in communication and teamwork.</p>
   <!-- Experience -->
    <div id="left-column">
   <section class="section">
-    <h2>Experience</h2>
+    <h2 id="exp">Experience</h2>
     <h3>Game Developer – Indie Studio</h3>
-    <p>Piston Media (Finland) <em>2018 – Present (part time)</em></p>
-    <ul>
+    <p>Piston Media <span class="country-fi">(Finland)</span> <em>2018 – Present (part time)</em></p>
+    <ul id="pme">
       <li>Developed gameplay systems in Unity and Godot</li>
       <li>2 published titles on Steam</li>
       <li>3 asset packs published on the Unity Asset Store</li>
@@ -50,8 +49,8 @@ Social, adaptable, and strong in communication and teamwork.</p>
     </ul>
 
         <h3>2nd Line Service Desk Specialist</h3>
-    <p>Planeetta Internet Oy (Finland) <em>01.2021 - 05.2024</em></p>
-    <ul>
+    <p>Planeetta Internet Oy <span class="country-fi">(Finland)</span> <em>01.2021 - 05.2024</em></p>
+    <ul id="plne">
       <li>Solved technical issues for clients</li>
       <li>Databases, site transfers, DNS & nameserver modifications</li>
       <li>Helped 1st line agents with more basic technical issues</li>
@@ -59,23 +58,23 @@ Social, adaptable, and strong in communication and teamwork.</p>
     </ul>
 
       <h3>Web Developer & Graphical Designer</h3>
-    <p>Advertising Agency Synergia (Finland) <em>09.2013 - 12.2013</em></p>
-    <ul>
+    <p>Advertising Agency Synergia <span class="country-fi">(Finland)</span> <em>09.2013 - 12.2013</em></p>
+    <ul id="syne">
       <li>Web development for clients</li>
       <li>Video shooting & editing for marketing purposes</li>
       <li>Designed print marketing materials</li>
     </ul>
 
     <h3>Web Developer Admin (Online Shop)</h3>
-    <p>City Plus Oy (Finland) <em>06.2013 - 08.2013</em></p>
-    <ul>
+    <p>City Plus Oy <span class="country-fi">(Finland)</span> <em>06.2013 - 08.2013</em></p>
+    <ul id="cite">
       <li>Added new products for eStore and updated old ones.</li>
       <li>Contacted product factories for offers for products to sell in the eStore</li>
     </ul>
 
     <h3>Web Developer Support</h3>
-    <p>MarujaLimon S.L. (Spain) <em>03.2012 – 07.2012</em></p>
-    <ul>
+    <p>MarujaLimon S.L. <span class="country-es">(Spain)</span> <em>03.2012 – 07.2012</em></p>
+    <ul id="mle">
       <li>Created Wordpress sites for various clients.</li>
       <li>Maintained websites by updating content and installing required plugins</li>
     </ul>
@@ -86,7 +85,7 @@ Social, adaptable, and strong in communication and teamwork.</p>
   <div id="right-column">
   <!-- Education -->
   <section class="section">
-    <h2>Education</h2>
+    <h2 id="edu">Education</h2>
     <h3>Bachelor of Business Information Technology</h3>
     <p>HAMK University of Applied Sciences <em>09.2008 - 04.2013</em></p>
     <br>
@@ -96,7 +95,7 @@ Social, adaptable, and strong in communication and teamwork.</p>
 
   <!-- Skills -->
   <section class="section">
-    <h2>Skills</h2>
+    <h2 id="skills">Skills</h2>
     <ul>
       <li>Unity (C#)</li>
       <li>Godot (GDScript)</li>
@@ -109,8 +108,8 @@ Social, adaptable, and strong in communication and teamwork.</p>
   </section>
 
     <section class="section">
-    <h2>Languages</h2>
-    <ul>
+    <h2 id="lang">Languages</h2>
+    <ul id="lang-list">
       <li>Finnish (Native)</li>
       <li>English (Full professional proficiency)</li>
       <li>Spanish (Professional working proficiency)</li>
@@ -118,7 +117,7 @@ Social, adaptable, and strong in communication and teamwork.</p>
   </section>
 
       <section class="section">
-    <h2>Certificates</h2>
+    <h2 id="cert">Certificates</h2>
     <ul>
       <li>Responsive Web Design</li>
       <li>Elements of AI</li>
@@ -126,5 +125,10 @@ Social, adaptable, and strong in communication and teamwork.</p>
   </section>
 </div>
 </main>
+
+<script src="lang.js">
+  // Languages from Json file
+</script>
+
 </body>
 </html>
