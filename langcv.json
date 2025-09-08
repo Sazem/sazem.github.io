@@ -38,7 +38,8 @@
         ],
         "cert": "Certificates",
         "country-fi": "Finland",
-        "country-es": "Spain"
+        "country-es": "Spain",
+        "present": "Present (part-time)"
     },
     "es": {
         "phone": "+34 651 67 27 81",
@@ -79,6 +80,7 @@
         ],
         "cert": "Certificados",
         "country-fi": "Finlandia",
-        "country-es": "España"
+        "country-es": "España",
+        "present": "Presente (tiempo parcial)"
     }
 }

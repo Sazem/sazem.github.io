@@ -40,6 +40,7 @@
     span.textContent = "(" + content["country-es"] + ")";
     });
 
+    document.getElementById("present").textContent = content.present;
 
     // Certificates
     document.getElementById("cert").textContent = content.cert;
@@ -59,6 +60,20 @@
   }
 }
 
+function getBrowserLanguage() {
+  const lang = navigator.language;
+  return lang.startsWith("es") ? "es" : "en";
+}
 
+function getURLLanguage() {
+  const params = new URLSearchParams(window.location.search);
+  const lang = params.get("lang");
+  return (lang === "es" || lang === "en") ? lang : null;
+}
 
-  LoadLanguage("es");
+function determLanguage() {
+  return getURLLanguage() || getBrowserLanguage();
+}
+
+const language = determLanguage();
+LoadLanguage(language);
