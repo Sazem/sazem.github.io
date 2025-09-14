@@ -1,3 +1,8 @@
+:root {
+  --link-color-white-bg: #1a73e8; 
+}
+
+
 #game-projects {
   background-color: black;
 }
@@ -54,7 +59,8 @@
   color: #333;
 }
 .game-info a {
-  color: #2f86c5;
+  color: var(--link-color-white-bg);
+  font-weight: bolder;
   text-decoration: underline;
 }
 
@@ -105,6 +111,11 @@ body, html {
 
 .special {
   color: #FFC857;
+  font-weight: bold;
+}
+
+.special-dark {
+  color: #3e5bff;
   font-weight: bold;
 }
 
@@ -236,7 +247,14 @@ a {
   font-size: 1.2rem;
 }
 
-
+.project-card a {
+  color: var(--link-color-white-bg);
+  font-weight: bolder;
+}
+.project-card p {
+  margin-top: 0px;
+  margin-bottom: 0.5rem;
+}
 
 #about-me {
   display: flex;
@@ -348,6 +366,7 @@ a {
 .project-info p {
   font-size: 0.95rem;
   color: #555;
+  text-align: left;
 }
 
 .preview-area img {
