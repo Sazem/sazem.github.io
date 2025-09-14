@@ -1,8 +1,8 @@
 {
     "en": {
-        "phone": "+358 45 13 70 450!",
+        "phone": "+358 45 13 70 450",
         "summary": "Summary",
-        "about": "Programmer with years of experience in indie development. Freelanced for multiple clients in gaming and web development, creating games, WordPress sites, and static websites\n.Skilled in HTML, CSS, JS, and C#.\nSocial, adaptable, and strong in communication and teamwork.",
+        "about": "Programmer with years of experience in indie development. Freelanced for multiple clients in gaming and web development, creating games, WordPress sites, and static websites.\nSkilled in HTML, CSS, JS, and C#.\nSocial, adaptable, and strong in communication and teamwork.",
         "exp": "Experience",
         "pme": [
             {"name": "1", "detail": "Developed gameplay systems in Unity and Godot"},
